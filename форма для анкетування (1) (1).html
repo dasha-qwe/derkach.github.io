@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<style>
+html {
+	min-height:100%;
+	}
+body {
+	color: #FFD700;
+    background: -webkit-linear-gradient(#40E0D0, #0000CD); 
+    background: -o-linear-gradient(#40E0D0, #0000CD); 
+    background: -moz-linear-gradient(#40E0D0, #0000CD); 
+    background: linear-gradient(#40E0D0, #0000CD); 
+    background-color: #0000CD; 
+	}
+</style>
+<center>
+<form method="post" action="mailto:krishtopa.tania@gmail.com">
+		<h1>Анкета</h1>
+		<h4>Дайте відповіді на запитання:)</h4>
+        <p>Прізвище, ім'я *</p>
+        <input align="center" type="text"  name="name" value="" placeholder="Вкажи прізвище, ім'я"  />
+  <h3>Стать *</h3>
+         Жінка <input align="center" type = "radio" name = "sex" value ="female"/>
+         Чоловік <input type = "radio" name = "sex" value ="male" checked/> 
+  <h3>Клас</h3>
+        <select name="Клас">
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+		</select>
+		<p/>
+		<input type="datetime" placeholder="дд.мм.рррр" /> Вкажіть дату
+ <h3>Який профіль вас цікавить? *
+   </h3><input type = "checkbox" name = "market" />"Гуманітарнй"<br>
+   <input type = "checkbox" name = "market" />"Хіміко-біологічний"<br>
+   <input type = "checkbox" name = "market" />"Математичний"<br> 
+   <input type = "checkbox" name = "market" />"Інформаційно-технологічний"<br>  
+ <h3>Eлектронна пошта*</h3>
+        <input type="email"  name="email"  placeholder="nadiya@ukr.net"  />
+ <h3> Телефон</h3>
+        <input type="tel"  name="telephone" placeholder="+38(999)999-9999" />
+		<p>Оцініть власне ставлення до навчання  0<input type="range" min="0" max="12" step="1" value="0">12</p>
+        <h3>Ваші пропозиції щодо організації дозвілля школярів*</h3>
+        <textarea  name="propozycii" cols="45" rows="7" placeholder="У повідомленні має бути більше, ніж 20 символів"></textarea> 
+        <input type="submit" value="Надіслати" id="my_button" />
+        <input type="reset"  value="Очистити"  id="my_button" />   
+ <p>* Поля, обов'язкові для заповнення </p>
+    </form>
+</center>
+</body>
+</html>
